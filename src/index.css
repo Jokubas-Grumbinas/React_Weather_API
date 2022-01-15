@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+  }
+
+  .app{
+  background-image: url('./assets/tumblr_1fcccf0780685f11f74abd80b7ea50a3_00c2cb74_640.gif');
+  background-size: cover;
+  background-position: bottom;
+  transition: 8.4 ease-out;
+}
+
+main {
+  min-height: 100vh
+
+}
+
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none; 
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px ;
+  box-shadow: 0px 5px rgba(255,255 , 255, 0.3);
+  color: #000000;
+  font-size: 15px;
+}
